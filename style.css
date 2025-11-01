@@ -1,0 +1,70 @@
+body {
+  background-color: #1f2937;
+  font-family: roboto;
+}
+
+.topheader {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.headerlogo {
+  display: flex;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.signupbutton {
+  display: flex;
+  background-color: #3882f6;
+}
+
+.hero {
+  flex-direction: column;
+  background-color: #1f2937;
+  display: flex;
+}
+
+.herotext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.headerlist {
+  padding: 0;
+  display: flex;
+  flex: 1;
+  margin-left: auto;
+}
+.heromaintext {
+  display: flex;
+}
+.herosecondarytext {
+  display: flex;
+}
+
+img {
+  margin: auto;
+}
+
+.heroimg {
+  display: flex;
+  width: 50%;
+}
+
+.heroimgtxt {
+  display: flex;
+}
