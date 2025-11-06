@@ -1,22 +1,43 @@
 body {
-  background-color: #1f2937;
-  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  justify-content: center;
+  justify-items: center;
+}
+
+img {
+  min-width: 0;
 }
 
 .topheader {
   display: flex;
   align-items: center;
-  flex: 1;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .headerlogo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
   display: flex;
-  flex: 1;
+  flex: auto;
 }
 
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  height: min-content;
 }
 
 ul {
@@ -26,21 +47,22 @@ ul {
 }
 
 .signupbutton {
+  color: #e5e7eb;
   display: flex;
+  margin-right: auto;
+  margin-top: 16px;
+  padding: 4px 16px;
   background-color: #3882f6;
-}
-
-.hero {
-  flex-direction: column;
-  background-color: #1f2937;
-  display: flex;
+  border-radius: 4px;
+  border-color: #3882f6;
+  border-style: hidden;
 }
 
 .herotext {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  width: 50%;
+  justify-content: center;
+  flex: 0 0 1;
 }
 
 .headerlist {
@@ -50,21 +72,196 @@ ul {
   margin-left: auto;
 }
 .heromaintext {
+  color: #e5e7eb;
   display: flex;
+  font-size: 48px;
+  font-weight: 900;
+  flex: none;
 }
 .herosecondarytext {
+  margin-top: 16px;
   display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-img {
-  margin: auto;
+.imgodin {
+  display: flex;
+  width: auto;
+  height: auto;
+  display: flex;
 }
 
 .heroimg {
+  align-items: center;
   display: flex;
   width: 50%;
 }
 
 .heroimgtxt {
+  background-color: #1f2937;
   display: flex;
+  height: 25%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+li {
+  margin: 8px;
+}
+
+.information {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 25%;
+  align-items: center;
+  background-color: #f9faf8;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.informationimgs {
+  margin: 20px;
+  display: flex;
+  min-width: 0;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.marcus {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: min-content;
+  margin-right: 24px;
+}
+
+.marcusimg {
+  border: solid #3882f6;
+  border-radius: 4px;
+  display: flex;
+  width: auto;
+  height: 200px;
+  flex: 0 0 auto;
+}
+
+.herodotus {
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  align-items: start;
+  width: min-content;
+  text-align: justify;
+  margin-right: 24px;
+}
+
+.herodotusimg {
+  display: flex;
+  border: solid #3882f6;
+  border-radius: 4px;
+  height: 200px;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.plato {
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  width: min-content;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.platoimg {
+  border: solid #3882f6;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  width: auto;
+  height: 200px;
+  margin: auto;
+}
+
+.aristotle {
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  width: min-content;
+  flex-wrap: wrap;
+  justify-items: center;
+  text-align: start;
+}
+
+.aristotleimg {
+  border: solid #3882f6;
+  border-radius: 4px;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex: 0 0 auto;
+  margin: auto;
+}
+
+.quote {
+  height: fit-content;
+  display: flex;
+  background-color: #e5e7eb;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-direction: column;
+}
+
+.quoteparagraph {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+}
+
+#quoteauthor {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.calltoaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+.calltoactionbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  height: 33%;
+  width: 80%;
+}
+
+.calltoactiontxt {
+  display: flex;
+  color: #f9faf8;
+}
+
+.signupbuttontwo {
+  margin-left: auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: solid#f9faf8;
+}
+.footer {
+  height: fit-content;
+  padding: 16px 0 16px 0;
+  background-color: #1f2937;
+  display: flex;
+  color: #f9faf8;
+  justify-content: center;
 }
