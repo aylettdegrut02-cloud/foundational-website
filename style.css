@@ -138,6 +138,7 @@ li {
   align-items: center;
   width: min-content;
   margin-right: 24px;
+  text-align: center;
 }
 
 .marcusimg {
@@ -147,6 +148,7 @@ li {
   width: auto;
   height: 200px;
   flex: 0 0 auto;
+  margin-bottom: 16px;
 }
 
 .herodotus {
@@ -155,7 +157,7 @@ li {
   height: auto;
   align-items: start;
   width: min-content;
-  text-align: justify;
+  text-align: center;
   margin-right: 24px;
 }
 
@@ -166,6 +168,7 @@ li {
   height: 200px;
   width: auto;
   flex: 0 0 auto;
+  margin-bottom: 16px;
 }
 
 .plato {
@@ -175,6 +178,7 @@ li {
   width: min-content;
   align-items: center;
   margin-right: 24px;
+  text-align: center;
 }
 
 .platoimg {
@@ -185,6 +189,7 @@ li {
   width: auto;
   height: 200px;
   margin: auto;
+  margin-bottom: 16px;
 }
 
 .aristotle {
@@ -194,7 +199,7 @@ li {
   width: min-content;
   flex-wrap: wrap;
   justify-items: center;
-  text-align: start;
+  text-align: center;
 }
 
 .aristotleimg {
@@ -204,7 +209,7 @@ li {
   width: 200px;
   height: 200px;
   flex: 0 0 auto;
-  margin: auto;
+  margin-bottom: 16px;
 }
 
 .quote {
@@ -242,8 +247,7 @@ li {
   justify-content: center;
   align-items: center;
   background-color: #3882f6;
-  height: 33%;
-  width: 80%;
+  
 }
 
 .calltoactiontxt {
