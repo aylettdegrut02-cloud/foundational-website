@@ -4,8 +4,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-evenly;
+  
+
 }
 
 img {
@@ -86,16 +87,15 @@ ul {
 }
 
 .imgodin {
-  display: flex;
-  width: auto;
-  height: auto;
+  margin: 16px;
   display: flex;
 }
-
 .heroimg {
   align-items: center;
   display: flex;
-  width: 50%;
+  flex: auto;
+  justify-items: center;
+  justify-content: center;
 }
 
 .heroimgtxt {
@@ -112,12 +112,13 @@ li {
 
 .information {
   display: flex;
+  padding-top:100px;
   padding-left: 200px;
   padding-right: 200px;
   height: 25%;
   align-items: center;
   background-color: #f9faf8;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -238,8 +239,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25%;
-  width: 100%;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .calltoactionbox {
@@ -247,19 +248,31 @@ li {
   justify-content: center;
   align-items: center;
   background-color: #3882f6;
-  
+  width: 100%;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 24px;
 }
 
-.calltoactiontxt {
-  display: flex;
+.calltoactionmaintxt {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.calltoactionsecondarytxt {
   color: #f9faf8;
 }
 
 .signupbuttontwo {
+  display: flex;
   margin-left: auto;
   background-color: #3882f6;
   color: #f9faf8;
   border: solid#f9faf8;
+  border-radius: 4px;
+  padding: 4px 16px;
+  text-align: ;
 }
 .footer {
   height: fit-content;
